@@ -16,6 +16,7 @@
       <td><%= tweet.location %></td>
       <td><%= link_to 'show', tweet_path(tweet) %></td>
       <td><%= link_to 'edit', edit_tweet_path(tweet) %></td>
+      <td><%= link_to 'destroy', tweet_path(tweet) , method: :delete, data: { confirm: 'Are you sure man?'} %></td>
     </tr>
   <% end %>
 </table>
