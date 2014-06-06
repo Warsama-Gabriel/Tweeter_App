@@ -15,8 +15,8 @@
  */
 
 
-body {
-  background-image: url("http://www.bollywoodpics4u.com/nature-wallpapers/wallpapers/clouds/1/cloud-background.jpg");
-  background-size: cover;
-}
 
+.navbar-inverse {
+  background-color: #99CCFF
+;
+}
